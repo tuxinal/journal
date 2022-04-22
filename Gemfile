@@ -15,6 +15,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'listen', '~> 3.1.5' # Required by Rails
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+gem 'sassc', '~> 2.1.0'
+gem "redcarpet"
 
 group :development, :test do
   gem 'dotenv-rails', groups: [:development, :test]

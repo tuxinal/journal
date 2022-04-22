@@ -27,6 +27,10 @@
       align-items: center;
       justify-content: space-between;
     }
+    .nav-items {
+      list-style: none;
+      padding-left: 0;    
+    }
 
     .nav-items-right li {
       margin-left: 20px;
