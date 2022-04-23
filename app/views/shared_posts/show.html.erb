@@ -14,7 +14,7 @@
       <h4 class="text-accent"><%= @post.decrypted_title %></h4>
       <div class="text-muted text-small bold mt-8"><%= @post.created_at.strftime("%m&#183;%d&#183;%Y").html_safe %></div>
 
-      <p class="reading-content mt-30"><%= @post.decrypted_content %></p>
+      <%= content_tag :div, markdown(@post.decrypted_content), class: "reading-content mt-30" %>
     </div>
   </div>
 </div>
